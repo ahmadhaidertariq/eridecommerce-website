@@ -13,8 +13,10 @@ Upload everything inside `outputs/eride-website/`:
 - `about.html`
 - `contact.html`
 - `free-audit.html`
+- `reviews.html`
 - `page.css`
-- `assets/`
+- `site.js`
+- `assets/` (web pages use the optimized images in `assets/web/`; the full-size originals in `assets/proof/` open when a visitor clicks a screenshot)
 
 ## GitHub Pages
 
@@ -37,4 +39,4 @@ GitHub will give you a live URL like:
 
 ## Form Note
 
-The forms are currently static. To receive submissions, connect Formspree, Netlify Forms, Tally, HubSpot, or your CRM endpoint.
+The audit and contact forms open the visitor's email app with their answers pre-filled, addressed to the email set in `CONTACT_EMAIL` at the top of `site.js`. To receive submissions without the email step, connect Formspree, Netlify Forms, Tally, HubSpot, or your CRM endpoint.
